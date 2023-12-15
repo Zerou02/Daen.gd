@@ -1,0 +1,51 @@
+{
+  "redraw": true,
+  "objects": [
+    {
+      "type": "Line",
+      "id": "leftLine",
+      "p1": "100,100",
+      "p2": "100,500",
+      "colour": "blue",
+      "collisionClass": "edge"
+    },
+    {
+      "type": "Line",
+      "id": "upperLine",
+      "p1": "100,100",
+      "p2": "700,100",
+      "colour": "blue",
+      "collisionClass": "edge"
+    },
+    {
+      "type": "Line",
+      "id": "rightLine",
+      "p1": "700,100",
+      "p2": "700,500",
+      "colour": "blue",
+      "collisionClass": "edge"
+    },
+    {
+      "type": "Line",
+      "id": "lowerLine",
+      "p1": "100,500",
+      "p2": "700,500",
+      "colour": "blue",
+      "collisionClass": "edge"
+    },
+    {
+      "type": "Circle",
+      "id": "Ball",
+      "centre": "300,300",
+      "radius": "10",
+      "colour": "red",
+      "filled": true,
+      "velocity": "1,1",
+      "collisionClass": "ball",
+      "collidesWith": "edge",
+      "behaviour": {
+        "colour": 1
+      }
+    }
+  ]
+}

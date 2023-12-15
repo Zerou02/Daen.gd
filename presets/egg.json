@@ -1,0 +1,28 @@
+{
+  "redraw": true,
+  "objects": [
+    {
+      "type": "Ellipse",
+      "id": "elli",
+      "lp": "250, 300",
+      "rp": "550, 300",
+      "filled": false,
+      "radius": "400",
+      "colour": "blue",
+      "collisionClass": "a",
+      "behaviours": {
+        "rotation": "10"
+      }
+    },
+    {
+      "type": "Circle",
+      "id": "ball",
+      "centre": "300,300",
+      "radius": "10",
+      "colour": "purple",
+      "filled": true,
+      "collidesWith": "a",
+      "velocity": "1,1"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "redraw": true,
+  "objects": [
+    {
+      "type": "Ellipse",
+      "id": "elli",
+      "lp": "250, 300",
+      "rp": "550, 300",
+      "filled": false,
+      "radius": "400",
+      "colour": "red",
+      "behaviours": {
+        "rotation": "1000"
+      }
+    }
+  ]
+}

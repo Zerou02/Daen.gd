@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://os2wlk300na5"]
+
+[ext_resource type="Script" path="res://FileButton.cs" id="1_sn5gs"]
+
+[node name="Control" type="Button"]
+anchors_preset = -1
+anchor_right = 0.082
+anchor_bottom = 0.057
+offset_right = -0.464005
+offset_bottom = 0.0639992
+grow_horizontal = 2
+grow_vertical = 2
+text = "TEST
+"
+script = ExtResource("1_sn5gs")

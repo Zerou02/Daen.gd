@@ -1,0 +1,49 @@
+{
+  "redraw": true,
+  "objects": [
+    {
+      "type": "Ellipse",
+      "id": "elli",
+      "lp": "250, 300",
+      "rp": "550, 300",
+      "filled": false,
+      "radius": "400",
+      "colour": "blue",
+      "collisionClass": "a",
+      "behaviours": {
+        "colour": "1",
+        "rotation": "10"
+      }
+    },
+    {
+      "type": "Ellipse",
+      "id": "elli2",
+      "lp": "250, 300",
+      "rp": "550, 300",
+      "filled": false,
+      "radius": "400",
+      "rotation": "90",
+      "colour": "blue",
+      "collisionClass": "a",
+      "behaviours": {
+        "colour": "1",
+        "rotation": "20"
+      }
+    },
+    {
+      "type": "Ellipse",
+      "id": "elli3",
+      "lp": "250, 300",
+      "rp": "550, 300",
+      "filled": false,
+      "radius": "400",
+      "rotation": "30",
+      "colour": "blue",
+      "collisionClass": "a",
+      "behaviours": {
+        "colour": "1",
+        "rotation": "30"
+      }
+    }
+  ]
+}
