@@ -1,0 +1,177 @@
+{
+  "redraw": true,
+  "objects": [
+    {
+      "type": "Line",
+      "id": "leftLine",
+      "p1": "100,100",
+      "p2": "100,500",
+      "colour": "blue",
+      "collisionClass": "edge"
+    },
+    {
+      "type": "Line",
+      "id": "upperLine",
+      "p1": "100,100",
+      "p2": "700,100",
+      "colour": "blue",
+      "collisionClass": "edge"
+    },
+    {
+      "type": "Line",
+      "id": "rightLine",
+      "p1": "700,100",
+      "p2": "700,500",
+      "colour": "blue",
+      "collisionClass": "edge"
+    },
+    {
+      "type": "Line",
+      "id": "lowerLine",
+      "p1": "100,500",
+      "p2": "700,500",
+      "colour": "blue",
+      "collisionClass": "edge"
+    },
+    {
+      "type": "Circle",
+      "id": "Ball1",
+      "centre": "300,300",
+      "radius": "10",
+      "colour": "red",
+      "filled": true,
+      "velocity": "1,1",
+      "collisionClass": "ball",
+      "collidesWith": "edge,ball",
+      "behaviour": {
+        "colour": 1
+      }
+    },
+    {
+      "type": "Circle",
+      "id": "Ball2",
+      "centre": "400,400",
+      "radius": "10",
+      "colour": "red",
+      "filled": true,
+      "velocity": "-1,-1",
+      "collisionClass": "ball",
+      "collidesWith": "edge,ball",
+      "behaviour": {
+        "colour": 1
+      }
+    },
+    {
+      "type": "Circle",
+      "id": "Ball3",
+      "centre": "300,400",
+      "radius": "10",
+      "colour": "red",
+      "filled": true,
+      "velocity": "1,-1",
+      "collisionClass": "ball",
+      "collidesWith": "edge,ball",
+      "behaviour": {
+        "colour": 1
+      }
+    },
+    {
+      "type": "Circle",
+      "id": "Ball4",
+      "centre": "400,300",
+      "radius": "10",
+      "colour": "green",
+      "filled": true,
+      "velocity": "-2,1",
+      "collisionClass": "ball",
+      "collidesWith": "edge,ball",
+      "behaviour": {
+        "colour": 1
+      }
+    },
+    {
+      "type": "Circle",
+      "id": "Ball5",
+      "centre": "500,300",
+      "radius": "10",
+      "colour": "blue",
+      "filled": true,
+      "velocity": "-1,3",
+      "collisionClass": "ball",
+      "collidesWith": "edge,ball",
+      "behaviour": {
+        "colour": 1
+      }
+    },
+    {
+      "type": "Circle",
+      "id": "Ball6",
+      "centre": "500,400",
+      "radius": "10",
+      "colour": "brown",
+      "filled": true,
+      "velocity": "-4,2",
+      "collisionClass": "ball",
+      "collidesWith": "edge,ball",
+      "behaviour": {
+        "colour": 1
+      }
+    },
+    {
+      "type": "Circle",
+      "id": "Ball7",
+      "centre": "500,450",
+      "radius": "10",
+      "colour": "yellow",
+      "filled": true,
+      "velocity": "-2,2",
+      "collisionClass": "ball",
+      "collidesWith": "edge,ball",
+      "behaviour": {
+        "colour": 1
+      }
+    },
+    {
+      "type": "Circle",
+      "id": "Ball10",
+      "centre": "300,450",
+      "radius": "10",
+      "colour": "purple",
+      "filled": true,
+      "velocity": "1,-1",
+      "collisionClass": "ball",
+      "collidesWith": "edge,ball",
+      "behaviour": {
+        "colour": 1
+      }
+    },
+    {
+      "type": "Circle",
+      "id": "Ball8",
+      "centre": "250,250",
+      "radius": "10",
+      "colour": "green",
+      "filled": true,
+      "velocity": "3,-4",
+      "collisionClass": "ball",
+      "collidesWith": "edge,ball",
+      "behaviour": {
+        "colour": 1
+      }
+    },
+    {
+      "type": "Circle",
+      "id": "Ball9",
+      "centre": "550,450",
+      "radius": "10",
+      "colour": "blue",
+      "filled": true,
+      "velocity": "1,2",
+      "collisionClass": "ball",
+      "collidesWith": "edge,ball",
+      "behaviour": {
+        "colour": 1
+      }
+    }
+  ]
+}

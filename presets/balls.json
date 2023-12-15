@@ -40,7 +40,7 @@
       "radius": "10",
       "colour": "red",
       "filled": true,
-      "velocity": "1,1",
+      "velocity": "-1,1",
       "collisionClass": "ball",
       "collidesWith": "edge,ball",
       "behaviour": {
@@ -82,7 +82,7 @@
       "radius": "10",
       "colour": "red",
       "filled": true,
-      "velocity": "-1,1",
+      "velocity": "-1,-1",
       "collisionClass": "ball",
       "collidesWith": "edge,ball",
       "behaviour": {
